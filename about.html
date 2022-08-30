@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+
+<head>
+    <!-- Load Google font on the first <head> to prevent error in IE -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600,800,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />   
+    <title>Coco's Burger</title>
+    <meta name="author" content="Burger Bar" />
+    <meta name="description" content="Burger Bar Description" />
+    <meta name="keywords"  content="Burger Bar Keyword" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    
+
+    <!-- Using IE Conditional to load stylesheet, Load style.less for all browser except lower than IE 9. Lower than IE9 using style.css -->
+    <!--[if !IE]><!-->
+    <link rel="stylesheet/less" type="text/css" href="css/style.less" />
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <![endif]-->
+    <!--[if gte IE 9]>
+    <link rel="stylesheet/less" type="text/css" href="css/style.less" />
+    <![endif]-->
+   
+	<style>
+    /* Orange text gradient only for Webkit (Chrome and Safari) */
+    .webkit #our-team h4.sub-title, .webkit #foods h4.sub-title {
+        background: #ef9e10; /* Old browsers */
+        background: -moz-linear-gradient(left,  #ef9e10 40%, #ef6910 60%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, right top, color-stop(40%,#ef9e10), color-stop(60%,#ef6910)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(left,  #ef9e10 40%,#ef6910 60%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(left,  #ef9e10 40%,#ef6910 60%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(left,  #ef9e10 40%,#ef6910 60%); /* IE10+ */
+        background: linear-gradient(to right,  #ef9e10 40%,#ef6910 60%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef9e10', endColorstr='#ef6910',GradientType=1 ); /* IE6-9 */
+
+        -webkit-text-fill-color: transparent;
+    }
+    </style>
+
+    <!-- Option for Less JS -->
+    <script>
+      less = {
+        env: "development",
+        async: false,
+        fileAsync: false,
+        poll: 1000,
+        functions: {},
+        dumpLineNumbers: "comments",
+        relativeUrls: false
+      };
+    </script>
+    <script type="text/javascript" src="js/less.min.js"></script>
+    <script type="text/javascript" src="js/retina.min.js"></script>
+	<script type="text/javascript" src="js/modernizr.custom.71422.js"></script>
+</head>
+
+<body>
+    <!-- Menu -->
+    <nav class="menu menu-left">
+        <div class="close-menu-btn icon-menu active">&nbsp;</div>    
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="about.html">About Us</a></li>
+            <li><a href="food.html">Our Food</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="menu-btn"><span class="icon-menu">&nbsp;</span> Menu</div>
+
+    
+    <!-- Site Overlay -->
+    <div class="site-overlay"></div>
+
+    <!-- Your Content -->
+    <div id="container">
+
+        <div class="container">
+            <div class="main-container row">
+                <div id="logo">
+                    <a href="index.html">
+                        <div class="logo-icon"><img src="img/logo.png" /></div>
+                        <div class="logo-type">Coco's Burger</div>
+                        <div class="logo-slogan">El sabor caribeño en cada mordida</div>
+                    </a> 
+                </div>
+            </div>
+        </div>
+
+        <div id="full-width-header" class="full-width">
+            <div class="triangle top"></div>
+            <div class="inner">
+                <div class="slide">
+                    <div class="inner-slide">
+                        <img src="img/single/edit21.jpg" width="1980" height="1040">
+                    </div>
+                </div>
+            </div>
+            <div class="triangle bottom"></div>
+        </div>
+        
+        <div class="clear"></div>
+
+        <div class="container full-page">
+            <div id="about-us" class="main-container">
+                <div class="row">
+                    <div class="main-content col">
+                        <div class="title">
+                            <h1>Acerca de nosotros</h1>
+                        </div>
+                        <div class="intro">
+                            <h2>Somos una empresa fundada por amigos el 18 de julio de 2020, con alto conocimiento en la producción y venta de comidas rápidas, la experiencia adquirida a través de los años, nos da el conocimiento para valorar la importancia del cliente, quien es el motivo de nuestros esfuerzos, y así llegar a ustedes con la seguridad de poder ofrecerles nuestros productos de excelente calidad con responsabilidad y cumplimiento.</h2>
+                        </div>
+                        <div class="content">
+                            <p>Tenemos como misión darle la excelencia a nuestros productos de comidas rápidas con alta calidad, nutritivos sanos y frescos, en función de satisfacer las necesidades del consumo, proporcionando en forma permanente bienestar y calidad de vida.</p>
+                            <div class="content-thumbnail half align-left">
+                                <img src="img/food/edit12.jpg"/>
+                            </div>
+                            <h1>NUESTROS COMPROMISOS SON: </h1>
+                            <p>• Con el cliente - Darle atención y servicio de calidad - Brindar un trato Honesto - Ofrecer excelente calidad de nuestros productos.
+                                • Con el Personal Capacitar y fomentar la Honestidad, Armonía, Eficiencia y Calidad de su desempeño con respeto y buena comunicación</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="clear"></div>
+
+        <div class="container full-page">
+            <div id="our-team" class="main-container">
+                <div class="row">
+                    <div class="title col">
+                        <h1>Nuestro equipo</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="team col">
+                        <div class="team-photo">
+                            <img src="img/food/chef1.1.jpg"/>
+                        </div>
+                        <div class="team-name">
+                            <h3>Gordon Ramsey </h3>
+                            <h4 class="sub-title">Chef ejecutivo</h4>
+                        </div>
+                    </div>
+                    <div class="team col">
+                        <div class="team-photo">
+                            <img src="img/food/chef1.2.jpg"/>
+                        </div>
+                        <div class="team-name">
+                            <h3>Nusret Gökçe</h3>
+                            <h4 class="sub-title">Sous Chef</h4>
+                        </div>
+                    </div>
+                    <div class="team col">
+                        <div class="team-photo">
+                            <img src="img/food/chef1.3.jpg"/>
+                        </div>
+                        <div class="team-name">
+                            <h3>Elena Azrak</h3>
+                            <h4 class="sub-title">Senior Chef</h4>
+                        </div>
+                    </div>
+                    <div class="team col">
+                        <div class="team-photo">
+                            <img src="img/food/chef1.4.jpg"/>
+                        </div>
+                        <div class="team-name">
+                            <h3>Daniela Soto</h3>
+                            <h4 class="sub-title">Gourmet</h4>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="clear space-area"></div>
+        
+        <div class="triangle top footer"></div>
+        <div class="container footer">
+            <div id="footer" class="main-container">
+                <div class="footer-top row">
+                    <div class="footer-info col">
+                        <div class="footer-logo">
+                            <div class="logo-icon"><img src="img/footer-logo.png" /></div>
+                        </div>
+                        <div class="footer-address">
+                            Coco's Burger</br>Plaza milenium, Colón
+                        </div>
+                        <div class="footer-contact">
+                            (+507) 693 6812<br/><a href="#">elcocoburger@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="clear"></div>
+                </div>
+                <div class="footer-bottom row">
+                    <div class="footer-copyright col">
+                        <div class="footer-copyright-text">Copyright 2021 Coco's Burger. Designed by Themezy. All rights reserved.</div>
+                    </div>
+                    
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+       
+       
+    </div>
+
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/pushy.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <script type="text/javascript" src="js/browser.selector.js"></script>
+    <script type="text/javascript" src="js/fastclick.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
