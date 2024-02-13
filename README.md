@@ -1,1 +1,1 @@
-Aplicación web destaurante de comida rápida desarrollada con Bootstrap
+Aplicación web de comida rápida desarrollada con Bootstrap.
